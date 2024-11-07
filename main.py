@@ -270,7 +270,7 @@ def create_files():
 
 if __name__ == '__main__':
     start = perf_counter_ns()
-    # main()
+    main()
     create_files()
     end = perf_counter_ns()
     print(f'Done: {(end - start)/1_000_000}ms')
